@@ -1,0 +1,67 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Manrope", sans-serif;
+}
+
+.navbar .text-heading {
+  font-size: 24px;
+  line-height: 32px;
+  letter-spacing: 3%;
+  font-weight: bold;
+}
+
+.navbar .text-heading .text-heading-color {
+  color: #002cff;
+}
+
+.navbar-nav .nav-item .nav-link {
+  font-size: 16px;
+  line-height: 22px;
+  letter-spacing: 0.3px;
+  color: #181a26;
+}
+
+.navbar-nav .nav-item .btn-login {
+  padding: 14px 18px;
+}
+
+.navbar-nav .nav-item .btn-login:hover{
+    background-color: #002cff;
+}
+
+.navbar-nav .nav-item .btn-register {
+  padding: 14px 18px;
+  color: #ffffff;
+  background-color: #002cff;
+  border: #181a26;
+}
+
+.categories .text-categories {
+  font-size: 28px;
+  line-height: 36px;
+  letter-spacing: 0.3px;
+  color: #181a26;
+  font-weight: 600;
+}
+
+.categories .categories-item .card-1{
+    background-color: #DCDCDD;
+    width: 219px;
+    height: 250px;
+    border-radius: 10px;
+}
+
+.categories .categories-item .card-1 .img-snack{
+    width: 68px;
+    height: 68px;
+}
+
+.categories .categories-item .card-1 .wrapper-img{
+    height: 130px;
+    width: 130px;
+    background-color: #CACACC;
+}
