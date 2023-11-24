@@ -29,8 +29,8 @@
   padding: 14px 18px;
 }
 
-.navbar-nav .nav-item .btn-login:hover{
-    background-color: #002cff;
+.navbar-nav .nav-item .btn-login:hover {
+  background-color: #002cff;
 }
 
 .navbar-nav .nav-item .btn-register {
@@ -48,20 +48,94 @@
   font-weight: 600;
 }
 
-.categories .categories-item .card-1{
-    background-color: #DCDCDD;
-    width: 219px;
-    height: 250px;
-    border-radius: 10px;
+.categories .categories-item .wrapper {
+  height: 250px;
+  width: 219px;
+  background-color: #dcdcdd;
+  border-radius: 10px;
 }
 
-.categories .categories-item .card-1 .img-snack{
-    width: 68px;
-    height: 68px;
+.categories .categories-item .wrapper .circle {
+  height: 130px;
+  width: 130px;
+  background-color: #cacacc;
 }
 
-.categories .categories-item .card-1 .wrapper-img{
-    height: 130px;
-    width: 130px;
-    background-color: #CACACC;
+.categories .categories-item .wrapper .circle .img-item {
+  width: 68px;
+  height: 68px;
+  margin: auto;
+}
+
+.categories .categories-item .wrapper .text-desc {
+  position: relative;
+  text-align: center;
+  top: 200px;
+  font-size: 16px;
+  line-height: 22px;
+  letter-spacing: 0.3px;
+  color: #181a26;
+}
+
+.product-section .text-product {
+  font-size: 28px;
+  line-height: 36px;
+  letter-spacing: 0.3px;
+  color: #181a26;
+  font-weight: 600;
+}
+
+.product-section .text-sub-product{
+  font-size: 16px;
+  line-height: 22px;
+  letter-spacing: 0.3px;
+  color: #4E4F56;
+  font-weight: 500px;
+}
+
+.product-section .product-row .product-item .img-product{
+  width: 350px;
+  height: 170px;
+  margin-bottom: 16px;
+}
+
+.product-section .product-row .product-item .product-title{
+  font-size: 20px;
+  line-height: 28px;
+  letter-spacing: 0.3px;
+  color: #181a26;
+  font-weight: bold;
+}
+
+.product-section .product-row .product-item .product-price{
+  font-size: 16px;
+  line-height: 22px;
+  letter-spacing: 0.3px;
+  color: #4E4F56;
+  font-weight: 500;
+}
+
+.banner-cta .img-banner{
+  width: 100%;
+  height: 300px;
+}
+
+.banner-cta .wrapper-cta{
+  position: relative;
+  text-align: center;
+  bottom: 200px;
+}
+
+.banner-cta .wrapper-cta .text-cta{
+  font-size: 32px;
+  line-height: 40px;
+  letter-spacing: 0.5px;
+  color: #ffffff;
+  font-weight: bold;
+}
+
+.banner-cta .wrapper-cta .btn-cta{
+  background-color: #002cff;
+  color: #ffffff;
+  padding: 14px 30px;
 }
