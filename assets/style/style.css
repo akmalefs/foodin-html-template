@@ -85,21 +85,21 @@
   font-weight: 600;
 }
 
-.product-section .text-sub-product{
+.product-section .text-sub-product {
   font-size: 16px;
   line-height: 22px;
   letter-spacing: 0.3px;
-  color: #4E4F56;
+  color: #4e4f56;
   font-weight: 500px;
 }
 
-.product-section .product-row .product-item .img-product{
+.product-section .product-row .product-item .img-product {
   width: 350px;
   height: 170px;
   margin-bottom: 16px;
 }
 
-.product-section .product-row .product-item .product-title{
+.product-section .product-row .product-item .product-title {
   font-size: 20px;
   line-height: 28px;
   letter-spacing: 0.3px;
@@ -107,26 +107,26 @@
   font-weight: bold;
 }
 
-.product-section .product-row .product-item .product-price{
+.product-section .product-row .product-item .product-price {
   font-size: 16px;
   line-height: 22px;
   letter-spacing: 0.3px;
-  color: #4E4F56;
+  color: #4e4f56;
   font-weight: 500;
 }
 
-.banner-cta .img-banner{
+.banner-cta .img-banner {
   width: 100%;
   height: 300px;
 }
 
-.banner-cta .wrapper-cta{
+.banner-cta .wrapper-cta {
   position: relative;
   text-align: center;
   bottom: 200px;
 }
 
-.banner-cta .wrapper-cta .text-cta{
+.banner-cta .wrapper-cta .text-cta {
   font-size: 32px;
   line-height: 40px;
   letter-spacing: 0.5px;
@@ -134,8 +134,55 @@
   font-weight: bold;
 }
 
-.banner-cta .wrapper-cta .btn-cta{
+.banner-cta .wrapper-cta .btn-cta {
   background-color: #002cff;
   color: #ffffff;
   padding: 14px 30px;
+}
+
+/* .footer .footer-heading{
+  width: 100%;
+  margin-right: 100px;
+} */
+
+.footer .footer-heading .footer-heading-text {
+  font-size: 32px;
+  line-height: 40px;
+  letter-spacing: 0.5px;
+  color: #181a26;
+  font-weight: bold;
+  margin-bottom: 14px;
+}
+
+.footer .footer-heading .footer-heading-desc {
+  font-size: 16px;
+  line-height: 22px;
+  letter-spacing: 0.3px;
+  color: #4e4f56; 
+}
+
+.footer .footer-menu .footer-menu-title{
+  font-size: 16px;
+  line-height: 22px;
+  letter-spacing: 0.3px;
+  color: #181a26;
+  font-weight: bold;
+}
+
+.footer .footer-menu .footer-menu-item{
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.3px;
+  text-decoration: none;
+  color: #4e4f56;
+  margin-bottom: 8px;
+}
+
+.copyright .copyright-text{
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.3px;
+  color: #4e4f56;
+  text-align: center;
+  margin-top: 30px;
 }
