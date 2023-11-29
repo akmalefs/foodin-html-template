@@ -186,3 +186,13 @@
   text-align: center;
   margin-top: 30px;
 }
+
+/* breadcrumb */
+
+.breadcrumb .breadcrumb-item .breadcrumb-text{
+  font-size: 16px;
+  line-height: 22px;
+  letter-spacing: 0.3px;
+  text-decoration: none;
+  color: #4e4f56;
+}
